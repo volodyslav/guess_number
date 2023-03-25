@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Random number from 1 to 10
-    const guess = Math.ceil((Math.random() * 10) + 1);
+    const guess = Math.floor((Math.random() * 10) + 1);
     // Delete previous number
     let update = document.querySelector('#number')
 
